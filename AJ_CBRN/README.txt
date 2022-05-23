@@ -10,6 +10,8 @@ QUICKSTART GUIDE:
 
 Make sure to drop the 17th mission guts into your mission file first, then follow these instructions (order doesnt matter, but for your sanity go top to bottom).
 
+Drop the "AJ_CBRN" folder into the "scripts" folder that comes with the mission guts.
+
 editor/mission
 
 	place down an object you want to be the source(center) of the chemical area. give this object a variable name, for example "chemical1"
