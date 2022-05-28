@@ -1,6 +1,6 @@
 WELCOME TO AJ's CBRN SCRIPT
 
-V1.0.0
+V2.0.0
 
 Any questions should be directed towards @Ajdj100#6446 on discord.
 
