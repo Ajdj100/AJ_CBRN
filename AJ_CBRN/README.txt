@@ -66,17 +66,25 @@ description.ext
 
 That should be everything you need to get started. It all scales from that. Now to get into the deep end...
 
+FEATURES:
+
+	CHEMICAL ZONES:
+	- Chemical zones will damage any players inside them unless protected by the correct equiptment.
+	
+	PROTECTIVE GEAR:
+	- Players can wear protective clothing and masks to keep them safe from chemical threats.
+	- Clothing can be defined by the mission maker, including modded gear.
+	- NATO CBRN gear from the Contact DLC is protected by default.
+	
+	VEHICLES:
+	- Some vehicles offer full protection from chemical threats.
+	- Vehicles can be defined by the mission maker.
 
 
 LIMITATIONS:
 
 	In its infancy, despite seeming somewhat impressive on the player side beacuse "woah chemical weapons cool!", it is extremely limited and has a lot of shortcomings that make it especially difficult to use in a fast paced and dynamic environment.
 
-	
-	EQUIPTMENT:
-	- Currently only the APR (NATO), and the CBRN Suit (NATO) are default protective clothing.
-	- These can be changed in the script, but currently it does not support having multiple options for protective equiptment. Only one facewear and one uniform.
-	- This is on the list of things to change, but it is pretty low priority.
 
 	RADIUS:
 	- Currently the radius of all chemical areas is set globally, meaning they will all have the same radius. This proves to be very limiting as your chemical weapons scale is limited by the smallest area you wish to apply it to.
@@ -84,7 +92,7 @@ LIMITATIONS:
 
 	SPAWNING
 	- Currently chemical areas cannot be created during the mission. They are only created on mission start.
-	- My personal workaround for this is to create a whole bunch of chemical areas outside of the AO. The radius will follow the object it is created around, so you can move these to where you want them during the mission.
+	- My personal workaround for this is to create a collection of chemical areas outside of the AO. The radius will follow the object it is created around, so you can move these to where you want them during the mission.
 	- This will be changed in the next version of the script, it will become a lot more flexible to use during missions with creating these zones.
 
 	DESPAWNING/DESTROYING
@@ -92,10 +100,6 @@ LIMITATIONS:
 	- Destruction can be a zeus delete, explosive, or just any other action that will drop the health of the object to 0.
 	- Some objects cannot be destroyed outside of zeus deleting them. Test accordingly.
 	- Some objects cannot be destroyed by players, and instead will be thrown a short distance by explosives. Test accordingly.
-
-	VEHICLES
-	- Currently, vehicles offer no protection from chemical areas.
-	- In future this will change, probably along with the changes to protective equiptment, but it's low priority.
 
 	SCALABILITY:
 	- The script is very set in how it works. I would describe it as almost entirely hardcoded (meaining you have to actually go into the code to change values).
